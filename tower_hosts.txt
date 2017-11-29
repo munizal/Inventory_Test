@@ -1,12 +1,1 @@
-[all:vars]
-ansible_python_interpreter=python
 
-[switches]
-POWsaMUStehac0.gdn.ge.com	ansible_host=10.129.225.18
-GEHstMUScranb03.gdn.ge.com	ansible_host=3.45.194.6
-EOGsaMUSartes01.gdn.ge.com	ansible_host=10.80.15.162
-EOGsaMUSandre01.gdn.ge.com	ansible_host=10.139.2.18
-CRPscMPElimax08.gdn.ge.com	ansible_host=3.238.64.2
-CRPscMPElimax09.gdn.ge.com	ansible_host=3.238.64.3
-EMTsdEDEdortm01.gdn.ge.com	ansible_host=10.6.224.51
-EOGsaENOagotn01.gdn.ge.com	ansible_host=10.129.74.226
