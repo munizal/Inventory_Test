@@ -8,4 +8,6 @@
 
   tasks:
   - name: call included role
-    include_role: role_test
+    include_role: 
+      name: role_test
+      version: devel
