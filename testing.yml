@@ -3,9 +3,9 @@
   gather_facts: no
   connection: local
   roles:
-    - test_role
+    - role_test
     - bofa_test
 
   tasks:
   - name: call included role
-    include_role: test_role
+    include_role: role_test
