@@ -2,6 +2,10 @@
 - hosts: localhost
   gather_facts: no
   connection: local
+  roles:
+    - test_role
+    - bofa_test
+
   tasks:
-  - name: echo hello world
-    shell: echo "hello World"
+  - name: call included role
+    include_role: test_role
