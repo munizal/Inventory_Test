@@ -48,7 +48,7 @@ galaxy_info:
     #       Maximum 20 tags per role.
 
 dependencies: 
-  - src: https://github.com/gamuniz/Inventory_Test.git
+  - src: https://gamuniz:c384a3d8586ee9f6d0f620aa0d9bed448b15c015@github.com/gamuniz/Inventory_Test.git
     version: devel
     name: role_test
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
