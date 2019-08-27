@@ -11,6 +11,7 @@
         user: "{{ tower_user }}"
         password: "{{ tower_pass }}"
         validate_certs: no
+        status_code: 201
     - name: pause for 3 minutes
       wait_for:
         timeout: 180
