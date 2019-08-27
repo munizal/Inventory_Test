@@ -1,0 +1,16 @@
+---
+- hosts: all
+  connection: local
+  gather_facts: false
+  tasks:
+    - name:
+      uri:
+        url: "https://ec2-54-149-113-190.us-west-2.compute.amazonaws.com/api/v2/job_templates/{{ job_id }}/launch/"
+        method: POST
+        force_basic_auth: yes
+        user: "{{ tower_user }}"
+        password: "{{ tower_pass }}"
+        validate_certs: no
+     - name: pause for 3 minutes
+       wait_for:
+         timeout: 180
