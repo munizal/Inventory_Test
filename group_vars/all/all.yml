@@ -1,3 +1,2 @@
-foo: car
-test: vars
+ansible_connection: local
 
