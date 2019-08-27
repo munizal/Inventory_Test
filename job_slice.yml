@@ -1,0 +1,9 @@
+---
+- hosts: all
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: simple wait task
+      wait_for:
+        timeout: 300
+      
