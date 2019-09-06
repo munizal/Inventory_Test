@@ -5,5 +5,5 @@
   tasks:
     - name: simple wait task
       wait_for:
-        timeout: 30
+        timeout: 300
       
