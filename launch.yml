@@ -27,7 +27,10 @@
         password: "{{ tower_pass }}"
         force_basic_auth: yes
       register: myout
-      when: myout.json is defined
-      until: myout.json.status == 'successful' or myout.json.status == 'failed'
-      retries: "{{ job_retries }}"
-      delay: "{{ job_delay }}"
+    - name:
+      debug:
+        var: myout
+    #  when: myout.json is defined
+    #  until: myout.json.status == 'successful' or myout.json.status == 'failed'
+    #  retries: "{{ job_retries }}"
+    #  delay: "{{ job_delay }}"
