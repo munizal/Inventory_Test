@@ -18,7 +18,7 @@
         var: myout
     - name: wait for the report
       uri:
-        url: "https://ec2-18-237-223-91.us-west-2.compute.amazonaws.com/{{ myout.json.url }}"
+        url: "https://ec2-18-237-223-91.us-west-2.compute.amazonaws.com{{ myout.json.url }}"
         validate_certs: false
         status_code: 200
         return_content: true
