@@ -1,0 +1,6 @@
+---
+# tasks file for new-role
+- name: shell out nonsense
+  shell: echo "hello world"
+
+
