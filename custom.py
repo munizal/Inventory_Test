@@ -1,3 +1,5 @@
 #!/usr/bin/env python
 
-print('hostA','hostB','hostC')
+def print_hosts:
+    print('hostA','hostB','hostC')
+print_hosts()
