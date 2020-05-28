@@ -1,4 +1,4 @@
-- src: https://github.com/gamuniz/requirements_tests
+- src: https://github.com/gamuniz/requirements_test.git
   version: devel
   name: role_test
   scm: git
