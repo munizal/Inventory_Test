@@ -9,5 +9,5 @@
   tasks:
   - name: call included role
     include_role: 
-      name: role_test
+      name: new-role
       #version: devel
