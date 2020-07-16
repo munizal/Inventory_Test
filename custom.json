@@ -1,6 +1,6 @@
 {
 	"windows": {
-		"hosts": [ "10.10.10.10"],
+		"hosts": [ "10.10.10.10", "10.20.20.10"],
 		"vars": {
 			"ansible_connection": "winrm",
 			"ansible_port": 5986,
