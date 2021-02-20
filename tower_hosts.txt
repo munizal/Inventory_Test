@@ -1,5 +1,5 @@
 [new_test]
-gabe_example10
+gabe_example10 scm_id=1
 gabe_example2
 gabe_example3
 [new_test1]
