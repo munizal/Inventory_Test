@@ -1,2 +1,4 @@
-ansible_connection: fixed? 
+{ 'scm':
+      'id': 1
+      }
 
