@@ -1,10 +1,9 @@
 {
-	"windows": {
-		"hosts": [ "10.10.10.10"],
+	"local": {
+		"hosts": [ "localhost"],
 		"vars": {
-			"ansible_connection": "winrm",
-			"ansible_port": 5986,
-			"ansible_winrm_server_cert_validation": "ignore"
+			"ansible_connection": "local",
+			"ansible_port": 22,
 		}
 	},
 	"cent": {
