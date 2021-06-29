@@ -3,7 +3,7 @@
 		"hosts": [ "localhost"],
 		"vars": {
 			"ansible_connection": "local",
-			"ansible_port": 22,
+			"ansible_port": 22
 		}
 	},
 	"cent": {
