@@ -10,7 +10,7 @@
 		"hosts": ["52.36.69.147"],
 		"vars": {
 			"ansible_user": "root",
-			"managed_name": "[{\"cluster_name\": \"XPIDemoCluster\", \"num_servers\": \"2\", \"name\": \"server1\", \"ports\": \"20300,20700\"}]"
+			"managed_name": "[]"
 		}
 	},
 	"_meta": {
