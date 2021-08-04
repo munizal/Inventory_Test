@@ -2,7 +2,7 @@
 [testme]
 variabletest
 localhost
-example1 
+example1 _awx_description='this is a host var from github'
 example2 
 example3 
 example4 
@@ -10,7 +10,9 @@ example5
 example6 
 example7 
 example8 
-example9 
+example9
+[testme:vars]
+_awx_description='this is group var from github'
 [unvaulted]
 example10
 example11 
