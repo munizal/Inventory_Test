@@ -2,6 +2,7 @@
 [testme]
 variabletest
 newtest_1
+newtest_2
 localhost
 example1 _awx_description='this is a host var from github'
 example2 
